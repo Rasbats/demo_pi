@@ -28,7 +28,7 @@ m_Dialog::m_Dialog( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	wxBoxSizer* bSizer14111112;
 	bSizer14111112 = new wxBoxSizer( wxHORIZONTAL );
 
-	m_staticText32111112 = new wxStaticText( this, wxID_ANY, wxT("Planned         \nSpeed           "), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText32111112 = new wxStaticText( this, wxID_ANY, wxT("Planned  \nSpeed           "), wxDefaultPosition, wxDefaultSize, 0 );
 	m_staticText32111112->Wrap( -1 );
 	bSizer14111112->Add( m_staticText32111112, 0, wxALL, 5 );
 
@@ -68,7 +68,7 @@ m_Dialog::m_Dialog( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	wxBoxSizer* bSizer14;
 	bSizer14 = new wxBoxSizer( wxHORIZONTAL );
 
-	m_staticText7 = new wxStaticText( this, wxID_ANY, wxT("Route / GPX   \nfile name     "), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText7 = new wxStaticText( this, wxID_ANY, wxT("Output:\nRoute / GPX\nfile name     "), wxDefaultPosition, wxDefaultSize, 0 );
 	m_staticText7->Wrap( -1 );
 	bSizer14->Add( m_staticText7, 0, wxALL, 5 );
 
@@ -87,9 +87,9 @@ m_Dialog::m_Dialog( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	m_button3111 = new wxButton( this, wxID_ANY, wxT("Generate GPX"), wxDefaultPosition, wxDefaultSize, 0 );
 	bSizer71->Add( m_button3111, 0, wxALIGN_CENTER_HORIZONTAL|wxALL, 5 );
 
-	m_staticText71 = new wxStaticText( this, wxID_ANY, wxT("Imports an existing GPX file\n... then makes and saves a new route file\n... (GPX) with added demo positions"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText71 = new wxStaticText( this, wxID_ANY, wxT("1.   Imports an existing GPX file.\n2.   Makes and saves a new route file\n(GPX) with added DR positions.\n3.   Import the new GPX to show\nthe result."), wxDefaultPosition, wxDefaultSize, 0 );
 	m_staticText71->Wrap( -1 );
-	bSizer71->Add( m_staticText71, 0, wxALL, 5 );
+	bSizer71->Add( m_staticText71, 0, wxALIGN_CENTER_HORIZONTAL|wxALL, 5 );
 
 
 	bSizer9111->Add( bSizer71, 1, wxEXPAND, 5 );

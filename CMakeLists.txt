@@ -120,7 +120,6 @@ if (NOT ${BUILD_TYPE} STREQUAL "flatpak")
   # Build package as required (flatpak already dealt with).
   #
   include(PluginCompiler)
-  include(PluginLibs)
   include(PluginLocalization)
   include(PluginInstall)
   include(PluginPackage)

@@ -19,7 +19,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="demo_pi.svg">
+   sodipodi:docname="demo_pi_panel.svg"
+   inkscape:export-filename="C:\Users\Mike\Documents\oplaydo\demo_pi\data\demo_pi_panel_icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata14">
     <rdf:RDF>
@@ -28,7 +31,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,7 +71,7 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <rect
-     style="fill:#282828;fill-opacity:1;stroke:#282828;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#efefef;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect4139"
      width="24.017662"
      height="24.16148"
@@ -80,22 +83,10 @@
      id="path832"
      inkscape:connector-curvature="0" />
   <path
-     style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#b4b4b4;stroke-width:1.77700007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#b4b4b4;stroke-width:1.77700007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      d="M 13.059491,12.301945 1.9686612,12.255665"
      id="path832-8"
      inkscape:connector-curvature="0" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.55688477px;line-height:137.25;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:6.67797089px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b4b4;fill-opacity:1;stroke:#b6baba;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     x="14.999015"
-     y="16.863155"
-     id="text4524"
-     transform="scale(0.90980528,1.0991363)"><tspan
-       sodipodi:role="line"
-       id="tspan4522"
-       x="14.999015"
-       y="16.863155"
-       style="fill:#b4b4b4;fill-opacity:1;stroke:#b6baba;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">D</tspan></text>
   <flowRoot
      xml:space="preserve"
      id="flowRoot4526"
@@ -120,4 +111,16 @@
          x="14.885198"
          y="-4.9074845"
          style="fill:#cccccc;" /></flowRegion><flowPara
-       id="flowPara4546">DD</flowPara></flowRoot></svg>
+       id="flowPara4546">DD</flowPara></flowRoot>  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:3.20000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 11.416922,17.776799 V 13.138658 H 6.7068719 1.9968215 v -0.86291 -0.86291 H 6.7068719 11.416922 V 6.6668332 1.9208282 h 0.86291 0.86291 V 12.167884 22.414941 h -0.86291 -0.86291 z"
+     id="path4558"
+     inkscape:connector-curvature="0" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:3.20000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 15.745854,18.661282 c -0.06572,-0.06572 -0.08629,-1.498737 -0.08629,-6.010842 V 6.7258888 l 2.462889,0.029448 c 2.305369,0.027564 2.493899,0.039647 2.947731,0.1889207 1.902074,0.6256254 2.975765,3.0245562 2.8368,6.3382185 -0.09928,2.367423 -0.825201,4.049725 -2.092639,4.849652 -0.841121,0.530862 -1.400632,0.615445 -4.071124,0.615445 -1.390513,0 -1.93458,-0.02351 -1.997366,-0.08629 z m 4.494426,-2.369769 c 0.217577,-0.05479 0.433137,-0.183288 0.633294,-0.377524 0.546186,-0.530027 0.756364,-1.432846 0.751941,-3.229966 C 21.620218,10.531442 21.199766,9.526186 20.177803,9.2226953 19.92276,9.1469558 19.500251,9.1117448 18.84647,9.1117448 h -0.957723 v 3.6314132 3.631413 h 1.010841 c 0.555962,0 1.159273,-0.03738 1.340692,-0.08306 z"
+     id="path4560"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+</svg>

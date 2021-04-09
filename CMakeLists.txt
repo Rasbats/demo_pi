@@ -134,8 +134,6 @@ if (NOT ${BUILD_TYPE} STREQUAL "flatpak")
   add_subdirectory("libs/wxJSON")
   target_link_libraries(${PACKAGE_NAME} ocpn::wxjson)
   
-  target_link_libraries(${PACKAGE_NAME} ${wxWidgets_LIBRARIES})
-  
 endif ()
 
 configure_file(

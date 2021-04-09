@@ -28,7 +28,10 @@ modules:
           - -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
           - -DBUILD_TYPE:STRING=tarball
           - -Uplugin_target
-      
+      #build-options:
+          #cxxflags: -DFLATPAK -O3
+          #cflags: -DFLATPAK -O3
+          # The flatpak-builder default CFLAGS adds -g
       sources:
           - type: git
             url: ..

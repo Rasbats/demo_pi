@@ -45,18 +45,17 @@ option(demo_USE_SVG "Use SVG graphics" ON)
 #
 # -------  Plugin setup --------
 #
-project(demo_pi VERSION 2.6.3.0)
+project(demo_pi VERSION 0.1.0.0)
 set(PKG_PRERELEASE "")  # Empty, or a tag like 'beta'
 
 set(DISPLAY_NAME demo)    # Dialogs, installer artifacts, ...
 set(PLUGIN_API_NAME demo) # As of GetCommonName() in plugin API
 set(CPACK_PACKAGE_CONTACT "Mike Rossiter")
-set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Simulate ship movements")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Demo of managed plugin without ci")
 set(CPACK_PACKAGE_DESCRIPTION [=[
-Simulates navigation of a vessel. Using the sail option and a current
-grib file for wind data, simulates how a sailing vessel might react in
-those conditions. Using 'Preferences' the simulator is able to record AIS
-data from itself. This can be replayed to simulate collision situations.
+Can be used as a template for a new OpenCPN plugin using the ShipDriver
+workflow for CI. No actual CI is possible using the plugin source files.
+Instead the intention is to allow a local build on a number of OS. 
 ]=])
 
 set(PKG_AUTHOR "Mike Rossiter")
@@ -108,9 +107,8 @@ endif ()
 include(Targets)
 create_targets(
   ${PROJECT_SOURCE_DIR}/flatpak/org.opencpn.OpenCPN.Plugin.demo.yaml
+  # flatpak build option has been commented out in this file.
 )
-
-include(PluginLibs)
 
 if ("${BUILD_TYPE}" STREQUAL "")
   return ()
@@ -120,6 +118,7 @@ if (NOT ${BUILD_TYPE} STREQUAL "flatpak")
   # Build package as required (flatpak already dealt with).
   #
   include(PluginCompiler)
+  include(PluginLibs)
   include(PluginLocalization)
   include(PluginInstall)
   include(PluginPackage)
